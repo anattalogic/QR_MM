@@ -1,0 +1,15 @@
+{
+  "name": "qr-overlay-action",
+  "version": "1.0.0",
+  "description": "Overlay merchant names on QR codes",
+  "main": "overlay.js",
+  "scripts": {
+    "start": "node overlay.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5",
+    "axios": "^1.6.0",
+    "sharp": "^0.33.0",
+    "archiver": "^6.0.0"
+  }
+}

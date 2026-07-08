@@ -3,7 +3,7 @@ name: Process QR Codes
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:   # Allows you to run it manually
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
-        cache: 'npm'
+        # cache: 'npm'   <-- Remove or comment this line
 
     - name: Install dependencies
       run: npm install

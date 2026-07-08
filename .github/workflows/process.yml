@@ -16,7 +16,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
-        # cache: 'npm'   <-- Remove or comment this line
+        # ❌ REMOVE the line: cache: 'npm'
 
     - name: Install dependencies
       run: npm install
